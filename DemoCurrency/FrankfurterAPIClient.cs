@@ -75,7 +75,7 @@ namespace DemoCurrency
         public async Task<RateHistoryEntitiy?> GetRateHistoryAsync(string baseCurrency, string startdate, 
                                                 string enddate, int pagesize, int pageNumber)
         {
-            const int MAXPAGESIZE = 10;
+            const int MAXPAGESIZE = 100;
             pagesize = (pagesize > MAXPAGESIZE) ? MAXPAGESIZE : pagesize;
             startdate = DateTime.Parse(startdate).AddDays(pagesize * (pageNumber-1)).ToString("yyyy-MM-dd");
             string enddate2 = DateTime.Parse(startdate).AddDays(pagesize-1).ToString("yyyy-MM-dd");
