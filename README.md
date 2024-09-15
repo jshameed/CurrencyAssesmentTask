@@ -11,3 +11,22 @@ This Api are designed for manging exchange rate for various currencies.
 - [Testing](#testing)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Overview
+
+The Exchange Rate Management API allows users to manage and retrieve exchange rates and perform currency conversions. It is designed for financial applications where handling real-time or historical exchange rates is required.
+
+- This API provides endpoints to manage currency exchange rates and perform currency conversions
+
+
+## Features
+This project includes three main API endpoints:
+
+- Get all exchange rates for a base currency: Retrieve a list of exchange rates for various currencies relative to a given base currency.
+- Convert between two currencies: Calculate the conversion rate between two currencies based on the latest exchange rates.
+- Get historical exchange rates: Retrieve the exchange rate history between two dates for a specific base currency. Pagination is supported, and up to a maximum of 100 days of exchange rate data can be extracted at a time.
+
+## Installation
+
+### Prerequisites
+- Software dependencies (.net core 6.0).
