@@ -1,0 +1,272 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:controllers\\exchangeratecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476A0-A718-4DBC-B404-C95705713DF4}|..\\DemoCurrency.Test\\DemoCurrency.Test.csproj|c:\\users\\home surface\\source\\repos\\democurrency.test\\latestratestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\skipduringtestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:skipduringtestattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\frankfurterapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:frankfurterapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\services\\currencyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:services\\currencyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476A0-A718-4DBC-B404-C95705713DF4}|..\\DemoCurrency.Test\\DemoCurrency.Test.csproj|c:\\users\\home surface\\source\\repos\\democurrency.test\\testdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC476A0-A718-4DBC-B404-C95705713DF4}|..\\DemoCurrency.Test\\DemoCurrency.Test.csproj|c:\\users\\home surface\\source\\repos\\democurrency.test\\testdata\\rates.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\model\\currencyrates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:model\\currencyrates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\services\\icurrencyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:services\\icurrencyservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\entities\\ratehistoryentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:entities\\ratehistoryentitiy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\services\\httpclientfactoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:services\\httpclientfactoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\profiles\\rateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:profiles\\rateprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|c:\\users\\home surface\\source\\repos\\democurrency\\democurrency.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF45DF50-D7E8-40CD-8D43-D567FB4773DF}|DemoCurrency.csproj|solutionrelative:democurrency.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrankfurterAPIClient.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\FrankfurterAPIClient.cs",
+              "RelativeDocumentMoniker": "FrankfurterAPIClient.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\FrankfurterAPIClient.cs",
+              "RelativeToolTip": "FrankfurterAPIClient.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T21:19:18.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LatestRatesTest.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\LatestRatesTest.cs",
+              "RelativeDocumentMoniker": "..\\DemoCurrency.Test\\LatestRatesTest.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\LatestRatesTest.cs",
+              "RelativeToolTip": "..\\DemoCurrency.Test\\LatestRatesTest.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:29:28.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RateHistoryEntitiy.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Entities\\RateHistoryEntitiy.cs",
+              "RelativeDocumentMoniker": "Entities\\RateHistoryEntitiy.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Entities\\RateHistoryEntitiy.cs",
+              "RelativeToolTip": "Entities\\RateHistoryEntitiy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:02:02.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ICurrencyServices.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\ICurrencyServices.cs",
+              "RelativeDocumentMoniker": "Services\\ICurrencyServices.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\ICurrencyServices.cs",
+              "RelativeToolTip": "Services\\ICurrencyServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T20:07:32.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExchangeRateController.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Controllers\\ExchangeRateController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ExchangeRateController.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Controllers\\ExchangeRateController.cs",
+              "RelativeToolTip": "Controllers\\ExchangeRateController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAqwDkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T13:52:12.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrencyServices.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\CurrencyServices.cs",
+              "RelativeDocumentMoniker": "Services\\CurrencyServices.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\CurrencyServices.cs",
+              "RelativeToolTip": "Services\\CurrencyServices.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T15:40:36.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SkipDuringTestAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\SkipDuringTestAttribute.cs",
+              "RelativeDocumentMoniker": "SkipDuringTestAttribute.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\SkipDuringTestAttribute.cs",
+              "RelativeToolTip": "SkipDuringTestAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T19:30:59.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestData.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\TestData.cs",
+              "RelativeDocumentMoniker": "..\\DemoCurrency.Test\\TestData.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\TestData.cs",
+              "RelativeToolTip": "..\\DemoCurrency.Test\\TestData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:39:58.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rates.json",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\TestData\\Rates.json",
+              "RelativeDocumentMoniker": "..\\DemoCurrency.Test\\TestData\\Rates.json",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency.Test\\TestData\\Rates.json",
+              "RelativeToolTip": "..\\DemoCurrency.Test\\TestData\\Rates.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T17:44:41.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T11:54:20.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CurrencyRates.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Model\\CurrencyRates.cs",
+              "RelativeDocumentMoniker": "Model\\CurrencyRates.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Model\\CurrencyRates.cs",
+              "RelativeToolTip": "Model\\CurrencyRates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:56:11.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAkwBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-15T11:58:56.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HttpClientFactoryServices.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\HttpClientFactoryServices.cs",
+              "RelativeDocumentMoniker": "Services\\HttpClientFactoryServices.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Services\\HttpClientFactoryServices.cs",
+              "RelativeToolTip": "Services\\HttpClientFactoryServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:36:33.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RateProfile.cs",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Profiles\\RateProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\RateProfile.cs",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\Profiles\\RateProfile.cs",
+              "RelativeToolTip": "Profiles\\RateProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:03:08.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DemoCurrency",
+              "DocumentMoniker": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\DemoCurrency.csproj",
+              "RelativeDocumentMoniker": "DemoCurrency.csproj",
+              "ToolTip": "C:\\Users\\home surface\\source\\repos\\DemoCurrency\\DemoCurrency.csproj",
+              "RelativeToolTip": "DemoCurrency.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-14T16:05:38.442Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

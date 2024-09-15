@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "DemoCurrency.Controllers.ExchangeRateController",
+    "Method": "GetRates",
+    "RelativePath": "api/rates/{baseCurrency}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseCurrency",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DemoCurrency.Entities.RateEntitties",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetRates"
+  },
+  {
+    "ContainingType": "DemoCurrency.Controllers.ExchangeRateController",
+    "Method": "ConvertRates",
+    "RelativePath": "api/rates/convert/{amount}/{fromCurrency}/{toCurrency}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "amount",
+        "Type": "System.Double",
+        "IsRequired": true
+      },
+      {
+        "Name": "fromCurrency",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "toCurrency",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DemoCurrency.Model.CurrencyRates",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ConvertRates"
+  },
+  {
+    "ContainingType": "DemoCurrency.Controllers.ExchangeRateController",
+    "Method": "GetRateHistory",
+    "RelativePath": "api/rates/history/{baseCurrency}/{startDate}/{endDate}/{pageSize}/{pageNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "baseCurrency",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DemoCurrency.Entities.RateHistoryEntitiy",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetRateHistory"
+  }
+]
