@@ -29,47 +29,23 @@ namespace DemoCurrency
 
         public async Task<RateEntitties?> GetExchangeRatesAsync(string basecurrency)
         {
-            var httpClient = _httpClientFactory.CreateClient("FrankfurterClient");
-            var request = new HttpRequestMessage(HttpMethod.Get,$"\\latest?from={basecurrency}");
-            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = await httpClient.SendAsync(request);
-            if (!response.IsSuccessStatusCode)
-                await LogClientError(response);
-
-            response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<RateEntitties>(content,
-                _jsonSerializerOptionsHelper.Options);
+            var query = $"\\latest?from={basecurrency}";
+            var content = await ProcessGetRequest(query);
+            return JsonSerializer.Deserialize<RateEntitties>(content, _jsonSerializerOptionsHelper.Options);
         }
 
         public async Task<Dictionary<string, string>?> GetCurrenciesAsync()
         {
-            var httpClient = _httpClientFactory.CreateClient("FrankfurterClient");
-            var request = new HttpRequestMessage(HttpMethod.Get, $"/currencies");
-            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = await httpClient.SendAsync(request);
-            if (!response.IsSuccessStatusCode)
-                await LogClientError(response);
-
-            response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<Dictionary<string, string>>(content,
-                _jsonSerializerOptionsHelper.Options);
+            var query = $"/currencies";
+            var content = await ProcessGetRequest(query);
+            return JsonSerializer.Deserialize<Dictionary<string, string>>(content,_jsonSerializerOptionsHelper.Options);
         }
 
         public async Task<RateEntitties?> ConvertCurrencyAsync(string fromCurrency, double amount, string toCurrency)
         {
-            var httpClient = _httpClientFactory.CreateClient("FrankfurterClient");
-            var request = new HttpRequestMessage(HttpMethod.Get,$"\\latest?amount={amount}&from={fromCurrency}&to={toCurrency}");
-            request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            var response = await httpClient.SendAsync(request);
-            if (!response.IsSuccessStatusCode)
-                await LogClientError(response);
-
-            response.EnsureSuccessStatusCode();
-            var content = await response.Content.ReadAsStringAsync();
-            return JsonSerializer.Deserialize<RateEntitties>(
-                content, _jsonSerializerOptionsHelper.Options);
+            var query = $"\\latest?amount={amount}&from={fromCurrency}&to={toCurrency}";
+            var content = await ProcessGetRequest(query);
+            return JsonSerializer.Deserialize<RateEntitties>(content, _jsonSerializerOptionsHelper.Options);
         }
 
         public async Task<RateHistoryEntitiy?> GetRateHistoryAsync(string baseCurrency, string startdate, 
@@ -80,9 +56,17 @@ namespace DemoCurrency
             startdate = DateTime.Parse(startdate).AddDays(pagesize * (pageNumber-1)).ToString("yyyy-MM-dd");
             string enddate2 = DateTime.Parse(startdate).AddDays(pagesize-1).ToString("yyyy-MM-dd");
             enddate = DateTime.Parse(enddate2) > DateTime.Parse(enddate) ? enddate : enddate2;
-     
+
+            var query = $"\\{startdate}..{enddate}?from={baseCurrency}";
+            var content = await ProcessGetRequest(query);
+            return JsonSerializer.Deserialize<RateHistoryEntitiy>(content, _jsonSerializerOptionsHelper.Options);
+
+        }
+
+        public async Task<string> ProcessGetRequest(string query)
+        {
             var httpClient = _httpClientFactory.CreateClient("FrankfurterClient");
-            var request = new HttpRequestMessage(HttpMethod.Get,$"\\{ startdate }..{enddate}?from={baseCurrency}");
+            var request = new HttpRequestMessage(HttpMethod.Get, query);
             request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             using (var response = await httpClient.SendAsync(request, HttpCompletionOption.ResponseHeadersRead))
@@ -90,9 +74,9 @@ namespace DemoCurrency
                 if (!response.IsSuccessStatusCode)
                     await LogClientError(response);
 
-                    response.EnsureSuccessStatusCode();
-                    var content = await response.Content.ReadAsStringAsync();
-                    return JsonSerializer.Deserialize<RateHistoryEntitiy>(content,_jsonSerializerOptionsHelper.Options);
+                response.EnsureSuccessStatusCode();
+                return await response.Content.ReadAsStringAsync();
+                
             }
         }
 
