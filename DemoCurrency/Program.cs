@@ -1,5 +1,6 @@
 using AspNetCoreRateLimit;
 using DemoCurrency;
+using DemoCurrency.Filters;
 using DemoCurrency.Helper;
 using DemoCurrency.Services;
 using Microsoft.Extensions.Configuration;
@@ -23,6 +24,7 @@ builder.Services.AddHttpClient("FrankfurterClient",
          return handler;
      });
 
+builder.Services.AddScoped<BlockCurrencyActionFilter>();
 builder.Services.AddScoped<ICurrencyServices, CurrencyServices>();
 builder.Services.AddScoped<FrankfurterAPIClient>();
 builder.Services.AddSingleton<JsonSerializerOptionsHelper>();

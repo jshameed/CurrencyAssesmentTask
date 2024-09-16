@@ -1,13 +1,9 @@
 ﻿
 using DemoCurrency.Entities;
-using DemoCurrency.ErrorHandlers;
 using DemoCurrency.Helper;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
 using System.Net.Http.Headers;
 using System.Text.Json;
-using System.Threading;
 namespace DemoCurrency
 {
     public class FrankfurterAPIClient

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using Castle.Components.DictionaryAdapter.Xml;
 using DemoCurrency.Entities;
+using DemoCurrency.Filters;
 using DemoCurrency.Model;
 using DemoCurrency.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -33,13 +35,15 @@ namespace DemoCurrency.Controllers
         {
             if (!await validateCurrency(baseCurrency))
                 return BadRequest($"{baseCurrency} Currency is not valid");
+          
 
             var rateEntitties = await _currencyServices.GetLatestRates(baseCurrency);
           //  Model.CurrencyRates currencyRates = _mapper.Map<Model.CurrencyRates>(rateEntitties);
             return Ok(rateEntitties);
         }
 
-    
+
+        [ServiceFilter(typeof(BlockCurrencyActionFilter))]
         [HttpGet("convert/{amount}/{fromCurrency}/{toCurrency}", Name = "ConvertRates")]
         public async Task<ActionResult<CurrencyRates>> ConvertRates(double amount, string fromCurrency, string toCurrency)
         {
